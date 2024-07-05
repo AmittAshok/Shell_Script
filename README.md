@@ -1,1 +1,1 @@
-This are practice shell Script examples
+This are shell Script examples
