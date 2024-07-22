@@ -11,12 +11,12 @@ if [ $# -eq 0 ];then
 fi
 
 # intialize the variable
-sum=0
+    sum=0
 
 
 for arg in "$@"
 do
-	add=$(( sum + arg)) # add current argument
+	sum=$(( sum + arg)) # add current argument
 done
-echo " The sum of all numbers is :$add "
+echo " The sum of all numbers is :$sum "
 
