@@ -1,12 +1,16 @@
 #!/bin/bash
-#
-# find greater number
-#
+<< Details
+# find greater number from given number
+Details
+
+
 # check if user input the numbers
   if [ $# -eq 0 ]; then
 	 echo " Please enter the numbers "
 	 exit 1
   fi
+
+
 
   num1=$1
   num2=$2
